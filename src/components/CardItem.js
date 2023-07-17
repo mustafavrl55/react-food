@@ -27,11 +27,11 @@ const CardItem = ({id, name, price, image, alt, count, basket ,setBasket}) => {
       </div>
       <div className="quantity__wrapper">
         <button onClick={() => decreaseButton () } className="decrease">
-          <img src="/images/chevron.svg" />
+          <img src="/images/chevron.svg" alt="" />
         </button>
         <div className="quantity">{count}</div>
         <button onClick={() => increaseButton () } className="increase">
-          <img src="/images/chevron.svg" />
+          <img src="/images/chevron.svg" alt="" />
         </button>
       </div>
       <div className="subtotal">${price} </div>
